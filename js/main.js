@@ -23,18 +23,24 @@ var digitsec = (secs <10) ? "0" + secs : secs;
 // Set hrs min & secs to 2 digits
 // Display the clock
 
-var display = hrs + ":"+ digitmin+ ":" + digitsec;
+// Change time to hex number
+
+var display = '#' + hrs + digitmin + digitsec;
   
 
 
 // Make clock work with set.Interval function
 // jQuery display text in clock id
 
-$('#clock').text(display);
+// Add background-color
+
+$('#clock').text(display).css ("background-color" , display);
+
 
 // Run every milisecond
 
 },1000 );
+
 
 
 })();
