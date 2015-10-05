@@ -6,10 +6,9 @@ window.setInterval (function () {
 // Set clock  variables
 
 var clock = new Date();
-  //console.log(clock);
+  // console.log(clock);
 
 var hrs = clock.getHours();
-
   //console.log(hrs);
 
 var mins = clock.getMinutes();
@@ -31,7 +30,7 @@ var display = hrs + ":"+ digitmin+ ":" + digitsec;
 // Make clock work with set.Interval function
 // jQuery display text in clock id
 
-$ ('#clock').text(display);
+$('#clock').text(display);
 
 // Run every milisecond
 
