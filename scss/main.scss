@@ -1,11 +1,16 @@
+body {
+  background-color: #C7C7C7;
+}
+
 .clock-body {
   text-align: center;
 
 
   p {
+    padding-top: 100px;
     font-family: 'Open Sans', sans-serif;
     font-size: 100px;
-    color: #C7C7C7;
+    color: #D99BEE;
   }
 
 }
