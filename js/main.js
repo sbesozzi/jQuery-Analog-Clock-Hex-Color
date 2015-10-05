@@ -39,3 +39,5 @@ $('#clock').text(display);
 
 })();
 
+// Make time a hex color
+
